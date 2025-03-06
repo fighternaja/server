@@ -32,7 +32,7 @@
       "type": "uid",
       "targetField": "name"
     },
-    "blocks": {
+    "block": {
       "type": "dynamiczone",
       "components": [
         "block.testimonial",

@@ -381,7 +381,7 @@ export interface ApiTeamMemberTeamMember extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    blocks: Schema.Attribute.DynamicZone<
+    block: Schema.Attribute.DynamicZone<
       ['block.testimonial', 'block.spoiler', 'block.richtext']
     >;
     createdAt: Schema.Attribute.DateTime;
